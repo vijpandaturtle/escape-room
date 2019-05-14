@@ -957,3 +957,97 @@ Exception rethrown at [0]:
 [2019.05.14-10.25.25:649][534]LogSlate: Window 'Save Level As' being destroyed
 [2019.05.14-10.25.29:894][775]LogUProjectInfo: Found projects:
 [2019.05.14-10.25.35:048][  0]LogSlate: Window 'Open Project' being destroyed
+[2019.05.14-10.31.26:039][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.32.12:510][518]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.14-10.32.19:080][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.14-10.32.19:131][630]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2019.05.14-10.32.19:360][630]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap432F8EA340CDB766A4C9369ABA8919E5.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
+[2019.05.14-10.32.19:391][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
+[2019.05.14-10.32.19:603][630]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltData692DEB584D3033471B28EA8C3C8F5C42.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
+[2019.05.14-10.32.22:656][662]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x301)
+[2019.05.14-10.32.22:907][662]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.14-10.32.35:161][618]Cmd: STAT FPS
+[2019.05.14-10.32.44:366][891]Cmd: STAT FPS
+[2019.05.14-10.32.45:367][965]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2019.05.14-10.33.43:519][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.14-10.34.47:049][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.34.50:013][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.34.52:393][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.34.55:651][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.00:700][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.02:636][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.06:090][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.08:063][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.10:376][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.12:890][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.15:228][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.17:465][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.35.25:270][867]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.14-10.35.26:482][983]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.14-10.35.26:505][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.14-10.35.26:553][983]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2019.05.14-10.35.26:755][983]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMapBC4320F64C77C9B53862DD824047D31E.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
+[2019.05.14-10.35.26:788][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
+[2019.05.14-10.35.27:047][983]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltDataCD11815546D4F2C4CDBA75BE73CE3FD2.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
+[2019.05.14-10.36.11:048][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.05.14-10.36.13:008][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.14-10.36.13:836][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.05.14-10.36.15:491][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.14-10.36.17:724][287]LogSlate: Took 0.029521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.14-10.36.37:532][745]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair
+[2019.05.14-10.36.37:544][745]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.05.14-10.36.38:713][745]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.05.14-10.36.38:772][745]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.14-10.36.38:794][745]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.05.14-10.36.38:815][745]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.05.14-10.36.38:840][745]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2019.05.14-10.36.38:860][745]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.05.14-10.36.38:880][745]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2019.05.14-10.36.38:986][745]LogSlate: Took 0.033198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.14-10.36.42:306][770]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.14-10.36.48:621][808]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.14-10.36.55:668][851]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.14-10.36.56:685][857]MaterialEditorStats: Base pass shader: 125 instructions
+[2019.05.14-10.36.56:685][857]MaterialEditorStats: Base pass shader with Surface Lightmap: 153 instructions
+[2019.05.14-10.36.56:685][857]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 199 instructions
+[2019.05.14-10.36.56:685][857]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.05.14-10.36.56:685][857]MaterialEditorStats: Texture samplers: 5/16
+[2019.05.14-10.36.56:685][857]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.05.14-10.36.56:685][857]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.05.14-10.40.53:975][ 85]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2019.05.14-10.41.20:274][259]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.05.14-10.41.20:310][259]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.14-10.41.20:320][259]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2019.05.14-10.41.21:634][270]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.05.14-10.41.21:698][270]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2019.05.14-10.41.21:740][270]LogSlate: Window 'Color Picker' being destroyed
+[2019.05.14-10.41.23:098][282]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.14-10.41.26:729][310]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.14-10.41.27:287][314]LogMaterialEditor: Applying material M_Chair
+[2019.05.14-10.41.28:364][314]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.05.14-10.41.28:578][314]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.05.14-10.41.28:629][314]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.05.14-10.41.28:729][314]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2019.05.14-10.41.28:750][314]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.05.14-10.41.38:394][314]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.05.14-10.41.38:394][314]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.05.14-10.41.38:394][314]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.05.14-10.41.38:397][314]TextureStreamingBuild: Display: Compiling optional shaders took 9.667 seconds.
+[2019.05.14-10.41.38:452][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.05.14-10.41.42:207][339]LogMaterialEditor: Saving and Compiling material M_Chair
+[2019.05.14-10.41.47:574][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/Materials/M_Chair" FILE="E:/My Work/Unreal Projects/Escape/Content/StarterContent/Props/Materials/M_Chair.uasset" SILENT=true
+[2019.05.14-10.41.47:690][339]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/M_Chair79D730C14D7ECC94B0BAEABA97DBED4A.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2019.05.14-10.41.47:730][339]MaterialEditorStats: Base pass shader: 125 instructions
+[2019.05.14-10.41.47:730][339]MaterialEditorStats: Base pass shader with Surface Lightmap: 153 instructions
+[2019.05.14-10.41.47:730][339]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 199 instructions
+[2019.05.14-10.41.47:730][339]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.05.14-10.41.47:730][339]MaterialEditorStats: Texture samplers: 5/16
+[2019.05.14-10.41.47:730][339]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.05.14-10.41.47:730][339]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.05.14-10.41.56:076][424]LogSlate: Window 'M_Chair' being destroyed
+[2019.05.14-10.41.56:108][424]LogSlate: Window 'M_Chair' being destroyed
+[2019.05.14-10.42.00:004][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.14-10.42.00:052][523]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2019.05.14-10.42.00:280][523]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap5A2F258146A4F1AA56EA8EBCCD44942E.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
+[2019.05.14-10.42.00:316][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
+[2019.05.14-10.42.00:564][523]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltDataDFE2095A454131861CE907B782017BE3.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
