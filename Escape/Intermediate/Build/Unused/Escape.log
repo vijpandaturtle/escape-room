@@ -1,0 +1,14 @@
+﻿  Creating makefile for EscapeEditor (ini files are newer than makefile)
+  Parsing headers for EscapeEditor
+    Running UnrealHeaderTool "E:\My Work\Unreal Projects\Escape\Escape.uproject" "E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeEditor in 8.2754643 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 8.1 SDK (C:\Program Files (x86)\Windows Kits\8.1).
+  Building 4 actions with 4 processes...
+    [1/4] OpenDoor.cpp
+    [2/4] UE4Editor-Escape-0005.lib
+       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0005.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0005.exp
+    [3/4] UE4Editor-Escape-0005.dll
+       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0005.suppressed.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0005.suppressed.exp
+    [4/4] EscapeEditor.target
+  Total time in Parallel executor: 2.57 seconds
+  Total execution time: 15.56 seconds
