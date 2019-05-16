@@ -1,3 +1,5 @@
 E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\Definitions.Escape.h
 e:\my work\unreal projects\escape\source\escape\OpenDoor.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/TriggerVolume.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerVolume.generated.h
 E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Inc\Escape\OpenDoor.generated.h
