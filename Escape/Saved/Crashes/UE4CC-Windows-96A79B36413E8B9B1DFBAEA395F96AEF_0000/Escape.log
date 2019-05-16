@@ -1,0 +1,992 @@
+﻿Log file open, 05/16/19 22:27:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Escape
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.213633
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-6063286
+LogInit: Engine Version: 4.22.1-6063286+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 8.1 (), CPU: Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz, GPU: Intel(R) HD Graphics Family
+LogInit: Compiled (64-bit): Apr 24 2019 04:36:48
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.16-16.57.45:779][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.16-16.57.45:779][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.16-16.57.45:780][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.16-16.57.45:780][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.16-16.57.45:781][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.05.16-16.57.45:781][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.16-16.57.45:781][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.16-16.57.45:781][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.16-16.57.45:781][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.16-16.57.45:781][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.16-16.57.45:781][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.16-16.57.45:781][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.16-16.57.45:781][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.16-16.57.45:785][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.16-16.57.45:785][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.16-16.57.45:786][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.16-16.57.45:787][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.16-16.57.45:788][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.16-16.57.45:788][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.16-16.57.45:788][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.16-16.57.45:816][  0]LogHAL: Display: Platform has ~ 16 GB [17092423680 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.05.16-16.57.45:816][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.16-16.57.45:816][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.05.16-16.57.45:816][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.05.16-16.57.45:817][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.16-16.57.45:817][  0]LogInit: Computer: DELL
+[2019.05.16-16.57.45:817][  0]LogInit: User: Owner
+[2019.05.16-16.57.45:817][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.05.16-16.57.45:817][  0]LogInit: High frequency timer resolution =2.338340 MHz
+[2019.05.16-16.57.45:818][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.16-16.57.45:818][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.16-16.57.45:818][  0]LogMemory: Process Physical Memory: 93.61 MB used, 93.61 MB peak
+[2019.05.16-16.57.45:818][  0]LogMemory: Process Virtual Memory: 83.41 MB used, 83.41 MB peak
+[2019.05.16-16.57.45:818][  0]LogMemory: Physical Memory: 6638.15 MB used,  9662.45 MB free, 16300.61 MB total
+[2019.05.16-16.57.45:818][  0]LogMemory: Virtual Memory: 484.35 MB used,  134217240.00 MB free, 134217728.00 MB total
+[2019.05.16-16.57.45:833][  0]LogInit: Using OS detected language (en-US).
+[2019.05.16-16.57.45:833][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.16-16.57.45:833][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.16-16.57.46:033][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.16-16.57.46:058][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.16-16.57.46:058][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.16-16.57.46:271][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.16-16.57.46:271][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.16-16.57.46:278][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2019.05.16-16.57.46:278][  0]LogD3D11RHI:       128/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.05.16-16.57.46:279][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.16-16.57.46:279][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.16-16.57.46:279][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.16-16.57.46:284][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.16-16.57.46:284][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.16-16.57.46:284][  0]LogWindows: EnumDisplayDevices:
+[2019.05.16-16.57.46:284][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2019.05.16-16.57.46:284][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2019.05.16-16.57.46:284][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2019.05.16-16.57.46:284][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.05.16-16.57.46:284][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2019.05.16-16.57.46:284][  0]LogD3D11RHI:   Driver Version: 10.18.14.4332 (internal:10.18.14.4332, unified:10.18.14.4332)
+[2019.05.16-16.57.46:284][  0]LogD3D11RHI:      Driver Date: 11-20-2015
+[2019.05.16-16.57.46:284][  0]LogRHI: Texture pool is 716 MB (70% of 1024 MB)
+[2019.05.16-16.57.46:292][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.16-16.57.46:297][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.16-16.57.46:297][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.16-16.57.46:297][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.16-16.57.46:302][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2019.05.16-16.57.46:645][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.05.16-16.57.46:666][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.05.16-16.57.46:687][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.05.16-16.57.46:714][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.05.16-16.57.46:744][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.05.16-16.57.46:776][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.05.16-16.57.46:808][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.05.16-16.57.46:836][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.05.16-16.57.46:845][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.05.16-16.57.46:962][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.05.16-16.57.46:964][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.05.16-16.57.47:018][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.05.16-16.57.47:018][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.05.16-16.57.47:047][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.05.16-16.57.47:047][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.05.16-16.57.47:063][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.05.16-16.57.47:078][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.05.16-16.57.47:093][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.05.16-16.57.47:109][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.05.16-16.57.47:165][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.05.16-16.57.47:165][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.05.16-16.57.47:165][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.16-16.57.47:174][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.05.16-16.57.47:220][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (E:/My Work/Unreal Projects/Escape/Intermediate/Shaders/WorkingDirectory/8756/).
+[2019.05.16-16.57.47:220][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/80856BFD4D4D6601043140BA7C2C718C/'.
+[2019.05.16-16.57.47:222][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.16-16.57.47:222][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.16-16.57.47:222][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.16-16.57.47:976][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.16-16.57.48:048][  0]LogDerivedDataCache: Loaded boot cache 0.07s 65MB C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.16-16.57.48:048][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.05.16-16.57.48:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/My Work/Unreal Projects/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.16-16.57.48:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.16-16.57.48:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/My Work/Unreal Projects/Escape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.16-16.57.48:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.16-16.57.48:065][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.16-16.57.48:065][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.16-16.57.48:065][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.16-16.57.48:077][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.16-16.57.48:077][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.16-16.57.48:077][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.16-16.57.48:108][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.16-16.57.48:109][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.16-16.57.48:109][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.16-16.57.48:219][  0]LogAssetRegistry: FAssetRegistry took 0.0394 seconds to start up
+[2019.05.16-16.57.48:641][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.16-16.57.48:809][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.16-16.57.48:809][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.05.16-16.57.48:809][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.16-16.57.48:809][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.05.16-16.57.48:809][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.05.16-16.57.48:829][  0]LogNetVersion: Escape 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1356091847)
+[2019.05.16-16.57.49:378][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.038299 seconds
+[2019.05.16-16.57.49:387][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.05.16-16.57.49:387][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.05.16-16.57.49:387][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.16-16.57.50:337][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.16-16.57.50:350][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.16-16.57.50:460][  0]SourceControl: Source control is disabled
+[2019.05.16-16.57.50:460][  0]SourceControl: Source control is disabled
+[2019.05.16-16.57.50:462][  0]SourceControl: Source control is disabled
+[2019.05.16-16.57.50:463][  0]SourceControl: Source control is disabled
+[2019.05.16-16.57.50:530][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.16-16.57.50:584][  0]LogOcInput: OculusInput pre-init called
+[2019.05.16-16.57.51:406][  0]LogEngine: Initializing Engine...
+[2019.05.16-16.57.51:407][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.16-16.57.51:408][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.05.16-16.57.51:424][  0]LogMaterial: Display: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2019.05.16-16.57.51:922][  0]LogMaterial: Display: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2019.05.16-16.57.52:076][  0]LogMaterial: Display: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2019.05.16-16.57.52:691][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2019.05.16-16.57.53:328][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2019.05.16-16.57.53:485][  0]LogMaterial: Display: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2019.05.16-16.57.53:615][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2019.05.16-16.57.53:653][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2019.05.16-16.57.53:686][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2019.05.16-16.57.53:722][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2019.05.16-16.57.53:756][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2019.05.16-16.57.53:790][  0]LogMaterial: Display: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2019.05.16-16.57.53:806][  0]LogMaterial: Display: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2019.05.16-16.57.53:848][  0]LogMaterial: Display: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2019.05.16-16.57.53:905][  0]LogMaterial: Display: Missing cached shader map for material GizmoMaterial, compiling. 
+[2019.05.16-16.57.53:929][  0]LogMaterial: Display: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2019.05.16-16.57.53:956][  0]LogMaterial: Display: Missing cached shader map for material GeomMaterial, compiling. 
+[2019.05.16-16.57.53:978][  0]LogMaterial: Display: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2019.05.16-16.57.54:005][  0]LogMaterial: Display: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2019.05.16-16.57.54:132][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial, compiling. 
+[2019.05.16-16.57.54:160][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2019.05.16-16.57.54:193][  0]LogMaterial: Display: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2019.05.16-16.57.54:218][  0]LogMaterial: Display: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2019.05.16-16.57.54:327][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.16-16.57.54:375][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.16-16.57.54:387][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.16-16.57.54:613][  0]LogInit: FAudioDevice initialized.
+[2019.05.16-16.57.54:614][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.16-16.57.55:837][  0]LogDerivedDataCache: Saved boot cache 1.22s 65MB C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.16-16.57.55:847][  0]LogInit: Texture streaming: Enabled
+[2019.05.16-16.57.55:878][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.16-16.57.55:909][  0]LogInit: Transaction tracking system initialized
+[2019.05.16-16.57.55:958][  0]BlueprintLog: New page: Editor Load
+[2019.05.16-16.57.56:108][  0]LocalizationService: Localization service is disabled
+[2019.05.16-16.57.57:766][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/' took 0.01s
+[2019.05.16-16.57.57:766][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.16-16.57.57:766][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.16-16.57.58:119][  0]SourceControl: Source control is disabled
+[2019.05.16-16.57.58:119][  0]Cmd: MAP LOAD FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.16-16.57.58:119][  0]LightingResults: New page: Lighting Build
+[2019.05.16-16.57.58:125][  0]MapCheck: New page: Map Check
+[2019.05.16-16.57.58:125][  0]LightingResults: New page: Lighting Build
+[2019.05.16-16.57.58:175][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2019.05.16-16.57.58:669][  0]LogAIModule: Creating AISystem for world MyMap
+[2019.05.16-16.57.58:682][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.16-16.57.58:744][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2019.05.16-16.57.58:745][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.16-16.57.58:745][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2019.05.16-16.57.58:745][  0]LogFileHelpers: Loading map 'MyMap' took 0.627
+[2019.05.16-16.57.58:809][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.16-16.57.58:809][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.16-16.57.58:871][  0]LogCollectionManager: Loaded 0 collections in 0.002895 seconds
+[2019.05.16-16.57.58:902][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Saved/Collections/' took 0.01s
+[2019.05.16-16.57.58:902][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/Developers/Owner/Collections/' took 0.01s
+[2019.05.16-16.57.58:902][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/Collections/' took 0.00s
+[2019.05.16-16.57.58:902][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.16-16.57.58:925][  0]LogContentBrowser: Native class hierarchy populated in 0.0218 seconds. Added 2736 classes and 663 folders.
+[2019.05.16-16.57.58:939][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.05.16-16.57.58:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:943][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:944][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:945][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:946][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:946][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:947][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:948][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:949][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:950][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:951][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:952][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:953][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:954][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:955][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:956][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:957][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:957][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:958][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:959][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:960][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:961][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:962][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:963][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:964][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.58:964][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-16.57.59:004][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.05.16-16.57.59:049][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-16.57.59:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-16.57.59:087][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-16.57.59:105][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-16.57.59:152][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.05.16-16.57.59:152][  0]LogLoad: (Engine Initialization) Total time: 15.47 seconds
+[2019.05.16-16.57.59:152][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.16-16.57.59:226][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.05.16-16.57.59:229][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.16-16.57.59:236][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.16-16.58.00:381][  0]LogRenderer: Reallocating scene render targets to support 1008x548 Format 9 NumSamples 1 (Frame:1).
+[2019.05.16-16.58.01:280][  1]LogAssetRegistry: Asset discovery search completed in 13.0840 seconds
+[2019.05.16-16.58.01:286][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.16-16.58.01:286][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2019.05.16-16.58.05:430][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.16-16.58.05:696][237]LogSlate: Took 0.013988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.16-16.58.21:375][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-16.58.21:478][151]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.16-16.58.21:498][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-16.58.21:499][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-16.58.21:499][151]PIE: New page: PIE session: MyMap (May 17, 2019, 3:58:21 AM)
+[2019.05.16-16.58.21:513][151]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.16-16.58.21:522][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008376s)
+[2019.05.16-16.58.21:524][151]LogAIModule: Creating AISystem for world MyMap
+[2019.05.16-16.58.21:525][151]LogPlayLevel: PIE: World Init took: (0.002924s)
+[2019.05.16-16.58.21:525][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.011686s)
+[2019.05.16-16.58.21:578][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.05.16-16.58.21:583][151]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.16-16.58.21:601][151]LogInit: FAudioDevice initialized.
+[2019.05.16-16.58.21:642][151]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-16.58.21:646][151]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2019.05.16-22.28.21
+[2019.05.16-16.58.21:646][151]LogWorld: Bringing up level for play took: 0.002136
+[2019.05.16-16.58.21:701][151]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2019.05.16-16.58.21:702][151]LogTemp: Warning: Position Report reporting!
+[2019.05.16-16.58.21:702][151]PIE: Warning: Mobility of /Game/UEDPIE_0_MyMap.MyMap:PersistentLevel.SM_DoorFrame_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.05.16-16.58.21:703][151]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.018
+[2019.05.16-16.58.21:703][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-16.58.37:674][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-16.58.37:675][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-16.58.37:729][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-16.58.37:729][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-16.58.37:797][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-16.58.37:807][997]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2019.05.16-16.58.37:816][997]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-16.58.37:861][998]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.05.16-16.58.39:694][ 96]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-16.58.39:701][ 96]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-16.58.53:829][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-16.58.53:915][708]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.16-16.58.53:935][708]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-16.58.53:935][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-16.58.53:936][708]PIE: New page: PIE session: MyMap (May 17, 2019, 3:58:53 AM)
+[2019.05.16-16.58.53:936][708]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.16-16.58.53:944][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008420s)
+[2019.05.16-16.58.53:946][708]LogAIModule: Creating AISystem for world MyMap
+[2019.05.16-16.58.53:946][708]LogPlayLevel: PIE: World Init took: (0.001672s)
+[2019.05.16-16.58.53:946][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.010327s)
+[2019.05.16-16.58.53:996][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2019.05.16-16.58.53:999][708]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.16-16.58.54:017][708]LogInit: FAudioDevice initialized.
+[2019.05.16-16.58.54:050][708]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-16.58.54:053][708]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2019.05.16-22.28.54
+[2019.05.16-16.58.54:053][708]LogWorld: Bringing up level for play took: 0.002185
+[2019.05.16-16.58.54:068][708]LogTemp: Warning: Position Report reporting!
+[2019.05.16-16.58.54:068][708]PIE: Warning: Mobility of /Game/UEDPIE_0_MyMap.MyMap:PersistentLevel.SM_DoorFrame_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.05.16-16.58.54:068][708]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap 0.347
+[2019.05.16-16.58.54:068][708]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-16.59.41:215][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-16.59.41:343][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-16.59.41:344][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-16.59.41:379][239]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-16.59.41:379][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-16.59.41:431][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-16.59.41:438][239]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.05.16-16.59.41:467][240]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.05.16-16.59.43:269][333]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-16.59.43:276][333]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-16.59.52:260][853]LogSlate: Took 0.030822 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.16-17.00.04:892][569]LogSlate: Took 0.033184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.16-17.00.25:946][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2019.05.16-17.00.28:130][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.00.34:204][786]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.00.35:232][845]Cmd: STAT FPS
+[2019.05.16-17.00.37:495][895]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.00.39:054][983]Cmd: STAT FPS
+[2019.05.16-17.01.46:697][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.01.59:528][136]LogHttp: Warning: 0000004BE8D7D080: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.05.16-17.01.59:528][136]LogHttp: Warning: 0000004BE8D7D080: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x4baeef3f70 [can pipeline])
+[2019.05.16-17.01.59:528][136]LogHttp: Warning: 0000004BE8D7D080: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2019.05.16-17.01.59:528][136]LogHttp: Warning: 0000004BE8D7D080: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.54.203.96) port 443 (#0))
+[2019.05.16-17.01.59:528][136]LogHttp: Warning: 0000004BE8D7D080: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.05.16-17.01.59:528][136]LogHttp: Warning: 0000004BE8D7D080: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.05.16-17.01.59:528][136]LogHttp: Warning: 0000004BE8D7D080: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.05.16-17.01.59:529][136]LogHttp: Warning: 0000004BE8D7D080: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.05.16-17.01.59:529][136]LogHttp: Warning: 0000004BE8D7D080: libcurl info message cache 7 (Closing connection 0)
+[2019.05.16-17.01.59:529][136]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B634ED794-4FD8-C32D-C706-B6880C372DE9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.16-17.03.59:223][ 82]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (43.067 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.16-17.06.51:480][743]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.06.52:597][807]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.16-17.06.52:601][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.06.52:619][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.16-17.06.52:674][807]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.05.16-17.06.52:984][807]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap5572226D4CBB264CC8DF4C8A363531FB.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
+[2019.05.16-17.06.53:041][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
+[2019.05.16-17.06.53:414][807]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltData15FC04414CE0D622EE84C997C26FDBC1.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
+[2019.05.16-17.07.20:599][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.11.54:056][  5]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.15.59:415][970]LogHttp: Warning: 0000004BD447CF40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: 0000004BD447CF40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x4baeef3f70 [can pipeline])
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: 0000004BD447CF40: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: 0000004BD447CF40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.235.38.192) port 443 (#5))
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: 0000004BD447CF40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: 0000004BD447CF40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: 0000004BD447CF40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: 0000004BD447CF40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: 0000004BD447CF40: libcurl info message cache 7 (Closing connection 5)
+[2019.05.16-17.15.59:416][970]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B634ED794-4FD8-C32D-C706-B6880C372DE9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.16-17.18.10:923][362]LogHttp: Warning: 0000004BD447E700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.16-17.18.10:923][362]LogHttp: Warning: 0000004BD447E700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.16-17.18.10:924][362]LogHttp: Warning: 0000004BD447E700: libcurl info message cache 1 (Closing connection 6)
+[2019.05.16-17.18.10:924][362]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B634ED794-4FD8-C32D-C706-B6880C372DE9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.16-17.20.11:557][721]LogHttp: Warning: 0000004BD447E700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.16-17.20.11:557][721]LogHttp: Warning: 0000004BD447E700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.16-17.20.11:557][721]LogHttp: Warning: 0000004BD447E700: libcurl info message cache 1 (Closing connection 7)
+[2019.05.16-17.20.11:894][722]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B634ED794-4FD8-C32D-C706-B6880C372DE9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.16-17.23.00:265][220]LogHotReload: New module detected: UE4Editor-Escape-0010.dll
+[2019.05.16-17.23.02:622][228]LogHotReload: Starting Hot-Reload from IDE
+[2019.05.16-17.23.02:732][228]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
+[2019.05.16-17.23.02:775][228]LogClass: Could not find existing class OpenDoor in package /Script/Escape for HotReload, assuming new class
+[2019.05.16-17.23.02:785][228]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.05.16-17.23.02:945][228]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2019.05.16-17.23.02:950][228]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.16-17.23.03:091][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.05.16-17.23.03:119][228]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2736 classes and 663 folders.
+[2019.05.16-17.23.03:205][228]Display: HotReload took  0.6s.
+[2019.05.16-17.23.22:761][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.23.46:908][135]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.05.16-17.23.52:786][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.16-17.23.52:831][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.05.16-17.23.53:035][526]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap2E2A4DFB48B989610CBDB48F5B998F0A.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
+[2019.05.16-17.23.53:069][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
+[2019.05.16-17.23.53:335][526]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltData2FAC520843BECE17FCE14686A87C9D3A.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
+[2019.05.16-17.32.27:491][263]LogHttp: Warning: 0000004BAEF260C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.05.16-17.32.27:491][263]LogHttp: Warning: 0000004BAEF260C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x4baeef3f70 [can pipeline])
+[2019.05.16-17.32.27:491][263]LogHttp: Warning: 0000004BAEF260C0: libcurl info message cache 1 (Re-using existing connection! (#11) with host datarouter.ol.epicgames.com)
+[2019.05.16-17.32.27:491][263]LogHttp: Warning: 0000004BAEF260C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.239.90.191) port 443 (#11))
+[2019.05.16-17.32.27:492][263]LogHttp: Warning: 0000004BAEF260C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.05.16-17.32.27:492][263]LogHttp: Warning: 0000004BAEF260C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.05.16-17.32.27:492][263]LogHttp: Warning: 0000004BAEF260C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.05.16-17.32.27:492][263]LogHttp: Warning: 0000004BAEF260C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.05.16-17.32.27:492][263]LogHttp: Warning: 0000004BAEF260C0: libcurl info message cache 7 (Closing connection 11)
+[2019.05.16-17.32.27:830][264]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B634ED794-4FD8-C32D-C706-B6880C372DE9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.16-17.32.45:822][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.05.16-17.32.47:487][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.05.16-17.32.51:576][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.16-17.32.52:700][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2019.05.16-17.32.56:106][604]Cmd: DELETE
+[2019.05.16-17.32.56:107][604]Cmd: ACTOR DELETE
+[2019.05.16-17.32.56:229][604]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.16-17.32.56:279][604]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.05.16-17.32.56:279][604]LogEditorActor: Deleted 1 Actors (0.123 secs)
+[2019.05.16-17.32.58:264][658]Cmd: TRANSACTION UNDO
+[2019.05.16-17.32.58:264][658]LogEditorTransaction: Undo Delete Actors
+[2019.05.16-17.32.59:468][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2019.05.16-17.33.01:457][779]Cmd: DELETE
+[2019.05.16-17.33.01:457][779]Cmd: ACTOR DELETE
+[2019.05.16-17.33.01:462][779]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.16-17.33.01:506][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.05.16-17.33.01:506][779]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2019.05.16-17.33.02:439][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.33.11:458][ 33]Cmd: TRANSACTION UNDO
+[2019.05.16-17.33.11:458][ 33]LogEditorTransaction: Undo Move Actors
+[2019.05.16-17.33.15:097][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.33.40:239][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.33.41:459][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.33.47:575][ 63]Cmd: TRANSACTION UNDO
+[2019.05.16-17.33.47:575][ 63]LogEditorTransaction: Undo Move Actors
+[2019.05.16-17.33.49:725][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.33.51:439][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.05.16-17.33.52:602][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.33.53:183][265]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.33.53:305][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.33.57:408][618]Cmd: EDIT COPY
+[2019.05.16-17.34.03:470][777]Cmd: TRANSACTION UNDO
+[2019.05.16-17.34.03:470][777]LogEditorTransaction: Undo Move Actors
+[2019.05.16-17.34.04:297][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.34.04:608][857]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.34.04:671][857]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.34.07:409][ 92]Cmd: EDIT PASTE
+[2019.05.16-17.34.20:749][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.34.26:918][749]Cmd: EDIT COPY
+[2019.05.16-17.34.31:628][874]Cmd: TRANSACTION UNDO
+[2019.05.16-17.34.31:628][874]LogEditorTransaction: Undo Move Actors
+[2019.05.16-17.34.34:933][ 15]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
+[2019.05.16-17.34.34:999][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.34.38:632][310]Cmd: EDIT PASTE
+[2019.05.16-17.34.45:615][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.34.52:280][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2019.05.16-17.34.55:064][742]Cmd: TRANSACTION UNDO
+[2019.05.16-17.34.55:064][742]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.16-17.34.55:950][812]Cmd: TRANSACTION UNDO
+[2019.05.16-17.34.55:951][812]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.16-17.34.56:893][841]Cmd: TRANSACTION UNDO
+[2019.05.16-17.34.56:893][841]LogEditorTransaction: Undo Move Actors
+[2019.05.16-17.35.00:531][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.35.05:687][199]Cmd: DELETE
+[2019.05.16-17.35.05:687][199]Cmd: ACTOR DELETE
+[2019.05.16-17.35.05:690][199]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.16-17.35.05:733][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.05.16-17.35.05:734][199]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2019.05.16-17.35.12:403][508]Cmd: EDIT COPY
+[2019.05.16-17.35.16:221][603]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.05.16-17.35.16:356][603]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.35.18:931][794]Cmd: EDIT PASTE
+[2019.05.16-17.35.24:802][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.16-17.35.33:186][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.35.40:421][475]Cmd: DELETE
+[2019.05.16-17.35.40:421][475]Cmd: ACTOR DELETE
+[2019.05.16-17.35.40:424][475]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.16-17.35.40:469][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.05.16-17.35.40:470][475]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2019.05.16-17.35.44:408][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.16-17.35.44:469][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.05.16-17.35.44:708][664]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap0B99C2674E256ABDF0A01EAA5FA17C07.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
+[2019.05.16-17.35.44:743][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
+[2019.05.16-17.35.44:991][664]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltData8592D4C74FE1FB24341D2F9B81E68C3C.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
+[2019.05.16-17.36.09:609][303]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.16-17.36.09:632][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.36.09:632][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-17.36.09:632][303]PIE: New page: PIE session: MyMap (May 17, 2019, 4:36:09 AM)
+[2019.05.16-17.36.09:633][303]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.16-17.36.09:640][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007062s)
+[2019.05.16-17.36.09:641][303]LogAIModule: Creating AISystem for world MyMap
+[2019.05.16-17.36.09:642][303]LogPlayLevel: PIE: World Init took: (0.001676s)
+[2019.05.16-17.36.09:642][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.009045s)
+[2019.05.16-17.36.09:688][303]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2019.05.16-17.36.09:691][303]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.16-17.36.09:710][303]LogInit: FAudioDevice initialized.
+[2019.05.16-17.36.09:738][303]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-17.36.09:740][303]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.16-23.06.09
+[2019.05.16-17.36.09:786][303]LogWorld: Bringing up level for play took: 0.047911
+[2019.05.16-17.36.09:802][303]LogTemp: Warning: Position Report reporting!
+[2019.05.16-17.36.09:803][303]PIE: Warning: Mobility of /Game/UEDPIE_0_MyMap.MyMap:PersistentLevel.SM_DoorFrame_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.05.16-17.36.09:803][303]PIE: Warning: Mobility of /Game/UEDPIE_0_MyMap.MyMap:PersistentLevel.SM_DoorFrame2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.05.16-17.36.09:804][303]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap 0.084
+[2019.05.16-17.36.09:805][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.36.12:608][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.36.12:608][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-17.36.12:647][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-17.36.12:647][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.36.12:689][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-17.36.12:695][457]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.05.16-17.36.12:740][458]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.05.16-17.36.14:685][499]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-17.36.14:695][499]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-17.37.33:146][371]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.16-17.37.33:165][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.37.33:166][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-17.37.33:166][371]PIE: New page: PIE session: MyMap (May 17, 2019, 4:37:33 AM)
+[2019.05.16-17.37.33:166][371]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.16-17.37.33:174][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008289s)
+[2019.05.16-17.37.33:176][371]LogAIModule: Creating AISystem for world MyMap
+[2019.05.16-17.37.33:176][371]LogPlayLevel: PIE: World Init took: (0.001755s)
+[2019.05.16-17.37.33:176][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.010325s)
+[2019.05.16-17.37.33:219][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.05.16-17.37.33:222][371]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.16-17.37.33:241][371]LogInit: FAudioDevice initialized.
+[2019.05.16-17.37.33:273][371]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-17.37.33:275][371]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.16-23.07.33
+[2019.05.16-17.37.33:275][371]LogWorld: Bringing up level for play took: 0.001839
+[2019.05.16-17.37.33:289][371]LogTemp: Warning: Position Report reporting!
+[2019.05.16-17.37.33:290][371]PIE: Warning: Mobility of /Game/UEDPIE_0_MyMap.MyMap:PersistentLevel.SM_DoorFrame_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.05.16-17.37.33:290][371]PIE: Warning: Mobility of /Game/UEDPIE_0_MyMap.MyMap:PersistentLevel.SM_DoorFrame2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.05.16-17.37.33:290][371]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.43
+[2019.05.16-17.37.33:290][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.37.43:732][ 10]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.37.43:733][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-17.37.43:785][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-17.37.43:785][ 10]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.37.43:829][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-17.37.43:834][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.05.16-17.37.43:843][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.37.43:881][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.05.16-17.37.54:979][261]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-17.37.55:026][261]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-17.39.07:332][754]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:332][754]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:402][755]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:402][755]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:446][756]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:446][756]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:491][757]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:492][757]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:535][758]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:535][758]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:581][759]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:581][759]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:623][760]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:624][760]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:661][761]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:661][761]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:702][762]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:702][762]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:742][763]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:742][763]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:783][764]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:783][764]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:824][765]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:825][765]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:868][766]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:868][766]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:902][767]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:902][767]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:905][767]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:905][767]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:915][767]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:915][767]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:956][768]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:957][768]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.07:999][769]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.07:999][769]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:040][770]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:040][770]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:084][771]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:084][771]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:126][772]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:126][772]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:167][773]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:167][773]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:204][774]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:204][774]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:244][775]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:244][775]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:285][776]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:285][776]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:324][777]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:324][777]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:364][778]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:364][778]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:406][779]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:406][779]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:452][780]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:452][780]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:496][781]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:497][781]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:539][782]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:540][782]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:580][783]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:580][783]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:621][784]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:621][784]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:661][785]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:661][785]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:704][786]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:704][786]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:744][787]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:744][787]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:785][788]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:785][788]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.08:823][789]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/MyMap.MyMap:PersistentLevel.TriggerVolume_1) from referencer (OpenDoor /Engine/Transient.SM_Door_2:OpenDoor).  Import failed...
+[2019.05.16-17.39.08:823][789]LogProperty: Warning: ObjectProperty /Script/Escape.OpenDoor:PressurePlate: unresolved reference to 'TriggerVolume'"TriggerVolume_1"''
+[2019.05.16-17.39.13:388][860]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2019.05.16-17.44.44:634][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2019.05.16-17.44.52:735][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x4baeef3f70 [can pipeline])
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: libcurl info message cache 1 (Re-using existing connection! (#16) with host datarouter.ol.epicgames.com)
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.1.90.14) port 443 (#16))
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: 0000004BD38E3740: libcurl info message cache 7 (Closing connection 16)
+[2019.05.16-17.44.59:583][678]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B634ED794-4FD8-C32D-C706-B6880C372DE9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.16-17.47.57:968][239]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.16-17.47.57:990][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.47.57:990][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-17.47.57:991][239]PIE: New page: PIE session: MyMap (May 17, 2019, 4:47:57 AM)
+[2019.05.16-17.47.57:991][239]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.16-17.47.58:003][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012156s)
+[2019.05.16-17.47.58:004][239]LogAIModule: Creating AISystem for world MyMap
+[2019.05.16-17.47.58:004][239]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2019.05.16-17.47.58:005][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.013738s)
+[2019.05.16-17.47.58:057][239]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.05.16-17.47.58:060][239]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.16-17.47.58:085][239]LogInit: FAudioDevice initialized.
+[2019.05.16-17.47.58:118][239]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-17.47.58:121][239]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.16-23.17.58
+[2019.05.16-17.47.58:121][239]LogWorld: Bringing up level for play took: 0.002006
+[2019.05.16-17.47.58:136][239]LogTemp: Warning: Position Report reporting!
+[2019.05.16-17.47.58:137][239]PIE: Warning: Mobility of /Game/UEDPIE_0_MyMap.MyMap:PersistentLevel.SM_DoorFrame_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.05.16-17.47.58:137][239]PIE: Warning: Mobility of /Game/UEDPIE_0_MyMap.MyMap:PersistentLevel.SM_DoorFrame2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.05.16-17.47.58:137][239]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap 0.417
+[2019.05.16-17.47.58:137][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.48.14:279][497]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2019.05.16-17.48.22:566][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-17.48.43:241][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.48.43:243][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-17.48.43:282][761]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-17.48.43:282][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.48.43:327][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-17.48.43:333][761]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.05.16-17.48.43:366][762]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.05.16-17.48.51:983][986]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-17.48.52:002][986]LogSlate: Window 'Message Log' being destroyed
+[2019.05.16-17.55.03:667][171]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.16-17.55.05:061][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.05.16-17.59.09:977][957]LogHotReload: New module detected: UE4Editor-Escape-0011.dll
+[2019.05.16-17.59.11:662][963]LogHotReload: Starting Hot-Reload from IDE
+[2019.05.16-17.59.11:715][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.05.16-17.59.13:668][963]LogClass: Could not find existing class OpenDoor in package /Script/Escape for HotReload, assuming new class
+[2019.05.16-17.59.13:676][963]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2019.05.16-17.59.13:787][963]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2019.05.16-17.59.13:790][963]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.16-17.59.13:885][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.05.16-17.59.13:904][963]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2736 classes and 663 folders.
+[2019.05.16-17.59.13:906][963]Display: HotReload took  2.2s.
+[2019.05.16-17.59.20:854][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-17.59.23:274][ 49]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.16-17.59.23:342][ 49]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.16-17.59.23:342][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-17.59.23:342][ 49]PIE: New page: PIE session: MyMap (May 17, 2019, 4:59:23 AM)
+[2019.05.16-17.59.23:342][ 49]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.16-17.59.23:351][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008343s)
+[2019.05.16-17.59.23:352][ 49]LogAIModule: Creating AISystem for world MyMap
+[2019.05.16-17.59.23:353][ 49]LogPlayLevel: PIE: World Init took: (0.001773s)
+[2019.05.16-17.59.23:353][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.010358s)
+[2019.05.16-17.59.23:394][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.05.16-17.59.23:398][ 49]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.16-17.59.23:415][ 49]LogInit: FAudioDevice initialized.
+[2019.05.16-17.59.23:446][ 49]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-17.59.23:448][ 49]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.16-23.29.23
+[2019.05.16-17.59.23:448][ 49]LogWorld: Bringing up level for play took: 0.001899
+[2019.05.16-17.59.23:462][ 49]LogTemp: Warning: Position Report reporting!
+[2019.05.16-17.59.23:463][ 49]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.257
+[2019.05.16-17.59.23:463][ 49]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'

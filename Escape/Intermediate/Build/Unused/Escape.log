@@ -1,14 +1,16 @@
-﻿  Parsing headers for EscapeEditor
+﻿  Creating makefile for EscapeEditor (ini files are newer than makefile)
+  Parsing headers for EscapeEditor
     Running UnrealHeaderTool "E:\My Work\Unreal Projects\Escape\Escape.uproject" "E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for EscapeEditor in 9.1914554 seconds
+  Reflection code generated for EscapeEditor in 26.1339193 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 8.1 SDK (C:\Program Files (x86)\Windows Kits\8.1).
-  Building 5 actions with 4 processes...
-    [1/5] OpenDoor.cpp
-    [2/5] OpenDoor.gen.cpp
-    [3/5] UE4Editor-Escape-0010.lib
-       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0010.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0010.exp
-    [4/5] UE4Editor-Escape-0010.dll
-       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0010.suppressed.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0010.suppressed.exp
-    [5/5] EscapeEditor.target
-  Total time in Parallel executor: 9.00 seconds
-  Total execution time: 20.10 seconds
+  Building 6 actions with 4 processes...
+    [1/6] Escape.init.gen.cpp
+    [2/6] OpenDoor.cpp
+    [3/6] OpenDoor.gen.cpp
+    [4/6] UE4Editor-Escape-0011.lib
+       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0011.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0011.exp
+    [5/6] UE4Editor-Escape-0011.dll
+       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0011.suppressed.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0011.suppressed.exp
+    [6/6] EscapeEditor.target
+  Total time in Parallel executor: 3.38 seconds
+  Total execution time: 32.77 seconds
