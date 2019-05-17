@@ -1,4 +1,4 @@
-﻿Log file open, 05/17/19 09:18:29
+﻿Log file open, 05/17/19 13:42:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Escape
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.151801
+LogStats: Stats thread started at 0.169654
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,807 +156,577 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.05.17-03.48.29:853][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.05.17-03.48.29:853][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.05.17-03.48.29:853][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
-[2019.05.17-03.48.29:853][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.05.17-03.48.29:853][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.05.17-03.48.29:853][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
-[2019.05.17-03.48.29:853][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.05.17-03.48.29:854][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
-[2019.05.17-03.48.29:854][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
-[2019.05.17-03.48.29:857][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.05.17-03.48.29:857][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.05.17-03.48.29:858][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.05.17-03.48.29:859][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.05.17-03.48.29:859][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.17-03.48.29:859][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.05.17-03.48.29:889][  0]LogHAL: Display: Platform has ~ 16 GB [17092423680 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.05.17-03.48.29:889][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.05.17-03.48.29:889][  0]LogInit: Going up to parent DeviceProfile []
-[2019.05.17-03.48.29:890][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2019.05.17-03.48.29:890][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
-[2019.05.17-03.48.29:891][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
-[2019.05.17-03.48.29:892][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
-[2019.05.17-03.48.29:893][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.05.17-03.48.29:893][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.05.17-03.48.29:893][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.05.17-03.48.29:893][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
-[2019.05.17-03.48.29:894][  0]LogInit: Computer: DELL
-[2019.05.17-03.48.29:894][  0]LogInit: User: Owner
-[2019.05.17-03.48.29:894][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.05.17-03.48.29:894][  0]LogInit: High frequency timer resolution =2.338340 MHz
-[2019.05.17-03.48.29:895][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.05.17-03.48.29:895][  0]LogMemory: Platform Memory Stats for Windows
-[2019.05.17-03.48.29:895][  0]LogMemory: Process Physical Memory: 93.59 MB used, 93.59 MB peak
-[2019.05.17-03.48.29:895][  0]LogMemory: Process Virtual Memory: 83.40 MB used, 83.40 MB peak
-[2019.05.17-03.48.29:895][  0]LogMemory: Physical Memory: 3896.04 MB used,  12404.56 MB free, 16300.61 MB total
-[2019.05.17-03.48.29:895][  0]LogMemory: Virtual Memory: 484.35 MB used,  134217240.00 MB free, 134217728.00 MB total
-[2019.05.17-03.48.29:951][  0]LogInit: Using OS detected language (en-US).
-[2019.05.17-03.48.29:951][  0]LogInit: Using OS detected locale (en-US).
-[2019.05.17-03.48.29:953][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.05.17-03.48.30:295][  0]LogInit: Setting process to per monitor DPI aware
-[2019.05.17-03.48.30:349][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.05.17-03.48.30:349][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.05.17-03.48.30:605][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.17-03.48.30:605][  0]LogD3D11RHI: D3D11 adapters:
-[2019.05.17-03.48.30:613][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
-[2019.05.17-03.48.30:613][  0]LogD3D11RHI:       128/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.05.17-03.48.30:614][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.05.17-03.48.30:614][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.05.17-03.48.30:614][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.05.17-03.48.30:618][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.05.17-03.48.30:618][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
-[2019.05.17-03.48.30:618][  0]LogWindows: EnumDisplayDevices:
-[2019.05.17-03.48.30:619][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2019.05.17-03.48.30:619][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2019.05.17-03.48.30:619][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2019.05.17-03.48.30:619][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2019.05.17-03.48.30:619][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
-[2019.05.17-03.48.30:619][  0]LogD3D11RHI:   Driver Version: 10.18.14.4332 (internal:10.18.14.4332, unified:10.18.14.4332)
-[2019.05.17-03.48.30:619][  0]LogD3D11RHI:      Driver Date: 11-20-2015
-[2019.05.17-03.48.30:619][  0]LogRHI: Texture pool is 716 MB (70% of 1024 MB)
-[2019.05.17-03.48.30:626][  0]LogD3D11RHI: Async texture creation enabled
-[2019.05.17-03.48.30:631][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.05.17-03.48.30:631][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.05.17-03.48.30:631][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.05.17-03.48.30:635][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2019.05.17-03.48.30:977][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.05.17-03.48.30:994][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.05.17-03.48.31:012][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.05.17-03.48.31:029][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.05.17-03.48.31:046][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.05.17-03.48.31:064][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.05.17-03.48.31:081][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.05.17-03.48.31:098][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.05.17-03.48.31:105][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.05.17-03.48.31:220][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.05.17-03.48.31:221][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.05.17-03.48.31:276][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.05.17-03.48.31:276][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.05.17-03.48.31:336][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.05.17-03.48.31:336][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.05.17-03.48.31:352][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.05.17-03.48.31:367][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.05.17-03.48.31:382][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.05.17-03.48.31:397][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.05.17-03.48.31:454][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.05.17-03.48.31:454][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.05.17-03.48.31:454][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.05.17-03.48.31:462][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.05.17-03.48.31:509][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (E:/My Work/Unreal Projects/Escape/Intermediate/Shaders/WorkingDirectory/4048/).
-[2019.05.17-03.48.31:509][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/0FE3BD424CA2EECAAA603A948E44916A/'.
-[2019.05.17-03.48.31:511][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.05.17-03.48.31:511][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.05.17-03.48.31:511][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.05.17-03.48.32:543][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.05.17-03.48.32:647][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.05.17-03.48.32:647][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.05.17-03.48.32:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/My Work/Unreal Projects/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.05.17-03.48.32:647][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.05.17-03.48.32:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/My Work/Unreal Projects/Escape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.05.17-03.48.32:647][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.05.17-03.48.32:669][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.05.17-03.48.32:670][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.05.17-03.48.32:670][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.05.17-03.48.32:684][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.05.17-03.48.32:684][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.05.17-03.48.32:684][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.05.17-03.48.32:724][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.05.17-03.48.32:726][  0]LogSlate: Using FreeType 2.6.0
-[2019.05.17-03.48.32:727][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.05.17-03.48.32:874][  0]LogAssetRegistry: FAssetRegistry took 0.0516 seconds to start up
-[2019.05.17-03.48.33:428][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.17-03.48.33:616][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.05.17-03.48.33:616][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.05.17-03.48.33:616][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.05.17-03.48.33:616][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.05.17-03.48.33:616][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.05.17-03.48.33:642][  0]LogNetVersion: Escape 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1356091847)
-[2019.05.17-03.48.34:239][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.048548 seconds
-[2019.05.17-03.48.34:248][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.05.17-03.48.34:249][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.05.17-03.48.34:249][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.05.17-03.48.35:472][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.05.17-03.48.35:488][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.05.17-03.48.35:641][  0]SourceControl: Source control is disabled
-[2019.05.17-03.48.35:641][  0]SourceControl: Source control is disabled
-[2019.05.17-03.48.35:644][  0]SourceControl: Source control is disabled
-[2019.05.17-03.48.35:645][  0]SourceControl: Source control is disabled
-[2019.05.17-03.48.35:739][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.05.17-03.48.35:815][  0]LogOcInput: OculusInput pre-init called
-[2019.05.17-03.48.36:902][  0]LogEngine: Initializing Engine...
-[2019.05.17-03.48.36:904][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.17-03.48.36:908][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.05.17-03.48.37:343][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.05.17-03.48.37:389][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.05.17-03.48.37:400][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-03.48.37:415][  0]LogInit: FAudioDevice initialized.
-[2019.05.17-03.48.37:416][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.05.17-03.48.37:889][  0]LogDerivedDataCache: Saved boot cache 0.47s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.05.17-03.48.37:914][  0]LogInit: Texture streaming: Enabled
-[2019.05.17-03.48.37:972][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.05.17-03.48.38:027][  0]LogInit: Transaction tracking system initialized
-[2019.05.17-03.48.38:107][  0]BlueprintLog: New page: Editor Load
-[2019.05.17-03.48.38:268][  0]LocalizationService: Localization service is disabled
-[2019.05.17-03.48.39:474][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/' took 0.01s
-[2019.05.17-03.48.39:474][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.05.17-03.48.39:474][  0]LogCook: Display: Mobile HDR setting 1
-[2019.05.17-03.48.39:694][  0]SourceControl: Source control is disabled
-[2019.05.17-03.48.39:694][  0]Cmd: MAP LOAD FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.05.17-03.48.39:695][  0]LightingResults: New page: Lighting Build
-[2019.05.17-03.48.39:698][  0]MapCheck: New page: Map Check
-[2019.05.17-03.48.39:698][  0]LightingResults: New page: Lighting Build
-[2019.05.17-03.48.39:734][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
-[2019.05.17-03.48.42:242][  0]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-03.48.42:273][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.05.17-03.48.42:418][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
-[2019.05.17-03.48.42:418][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.05.17-03.48.42:419][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.129ms to complete.
-[2019.05.17-03.48.42:419][  0]LogFileHelpers: Loading map 'MyMap' took 2.724
-[2019.05.17-03.48.42:635][  0]LogCollectionManager: Loaded 0 collections in 0.002941 seconds
-[2019.05.17-03.48.42:669][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Saved/Collections/' took 0.01s
-[2019.05.17-03.48.42:669][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/Developers/Owner/Collections/' took 0.00s
-[2019.05.17-03.48.42:669][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/Collections/' took 0.01s
-[2019.05.17-03.48.42:669][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.05.17-03.48.42:693][  0]LogContentBrowser: Native class hierarchy populated in 0.0229 seconds. Added 2736 classes and 663 folders.
-[2019.05.17-03.48.42:706][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.05.17-03.48.42:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.42:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.42:815][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.42:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.42:843][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.42:861][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.42:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:087][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:108][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:180][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:199][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:211][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:225][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:235][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:321][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:370][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:390][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:411][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:429][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.43:454][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.17-03.48.44:551][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2019.05.17-03.48.44:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-03.48.44:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-03.48.44:845][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-03.48.44:878][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-03.48.44:938][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2019.05.17-03.48.44:938][  0]LogLoad: (Engine Initialization) Total time: 16.96 seconds
-[2019.05.17-03.48.44:938][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.05.17-03.48.45:041][  0]LogContentStreaming: Texture pool size now 400 MB
-[2019.05.17-03.48.45:043][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.05.17-03.48.45:048][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.05.17-03.48.45:948][  0]LogRenderer: Reallocating scene render targets to support 1008x548 Format 9 NumSamples 1 (Frame:1).
-[2019.05.17-03.48.46:692][  1]LogAssetRegistry: Asset discovery search completed in 13.8470 seconds
-[2019.05.17-03.48.46:700][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.05.17-03.48.46:700][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
-[2019.05.17-03.49.12:230][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-03.49.13:249][325]LogSlate: Took 0.044962 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.05.17-03.49.13:561][331]LogSlate: Took 0.018092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.05.17-03.49.17:443][712]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
-[2019.05.17-03.49.53:251][511]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-03.49.53:261][511]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-03.49.53:262][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-03.49.53:262][511]PIE: New page: PIE session: MyMap (May 17, 2019, 2:49:53 PM)
-[2019.05.17-03.49.53:274][511]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-03.49.53:280][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005519s)
-[2019.05.17-03.49.53:283][511]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-03.49.53:283][511]LogPlayLevel: PIE: World Init took: (0.003517s)
-[2019.05.17-03.49.53:283][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.009360s)
-[2019.05.17-03.49.53:311][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
-[2019.05.17-03.49.53:314][511]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-03.49.53:324][511]LogInit: FAudioDevice initialized.
-[2019.05.17-03.49.53:364][511]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-03.49.53:367][511]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.17-09.19.53
-[2019.05.17-03.49.53:367][511]LogWorld: Bringing up level for play took: 0.001887
-[2019.05.17-03.49.53:394][511]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2019.05.17-03.49.53:395][511]LogTemp: Warning: Position Report reporting!
-[2019.05.17-03.49.53:395][511]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.849
-[2019.05.17-03.49.53:395][511]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-03.49.56:387][631]LogSlate: Took 0.000800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.05.17-03.50.27:323][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.05.17-03.50.27:356][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
-[2019.05.17-03.50.27:579][ 57]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMapEC8F16834E02AAEAC8EE9C91EF8C67D9.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
-[2019.05.17-03.50.27:609][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
-[2019.05.17-03.50.27:837][ 57]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltData539F991D4F4E3A1AC5E389815DA68240.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
-[2019.05.17-03.50.28:364][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2019.05.17-03.50.39:064][361]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
-[2019.05.17-03.50.50:862][675]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
-[2019.05.17-03.51.00:235][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-03.51.11:908][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-03.51.11:908][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-03.51.11:945][740]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-03.51.11:945][740]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-03.51.11:981][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-03.51.11:986][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
-[2019.05.17-03.51.12:022][742]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.05.17-03.53.45:660][316]LogHttp: Warning: 0000006BD2281F80: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2019.05.17-03.53.45:660][316]LogHttp: Warning: 0000006BD2281F80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x6ba7373f70 [can pipeline])
-[2019.05.17-03.53.45:660][316]LogHttp: Warning: 0000006BD2281F80: libcurl info message cache 1 (Re-using existing connection! (#2) with host datarouter.ol.epicgames.com)
-[2019.05.17-03.53.45:660][316]LogHttp: Warning: 0000006BD2281F80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.204.145.10) port 443 (#2))
-[2019.05.17-03.53.45:661][316]LogHttp: Warning: 0000006BD2281F80: libcurl info message cache 3 (We are completely uploaded and fine)
-[2019.05.17-03.53.45:661][316]LogHttp: Warning: 0000006BD2281F80: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
-[2019.05.17-03.53.45:661][316]LogHttp: Warning: 0000006BD2281F80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2019.05.17-03.53.45:661][316]LogHttp: Warning: 0000006BD2281F80: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2019.05.17-03.53.45:661][316]LogHttp: Warning: 0000006BD2281F80: libcurl info message cache 7 (Closing connection 2)
-[2019.05.17-03.53.45:661][316]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5439022E-4CC5-66D9-AD15-40BEC2D8B5CA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2019.05.17-04.01.03:226][976]LogSlate: Took 0.000683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.05.17-04.04.24:835][630]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2019.05.17-04.04.27:682][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.04.32:467][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2019.05.17-04.04.45:995][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.05.17-04.04.52:830][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.05.32:004][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.05.17-04.05.32:044][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
-[2019.05.17-04.05.32:197][556]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMapFDC765364B41B09414C56DA1A7704A79.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
-[2019.05.17-04.05.32:225][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
-[2019.05.17-04.05.32:405][556]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltDataE240BEA34A1A8B8693A4B4A62EF96142.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
-[2019.05.17-04.05.33:393][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.05.17-04.05.40:684][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.06.04:207][872]LogHotReload: New module detected: UE4Editor-Escape-0012.dll
-[2019.05.17-04.06.06:569][880]LogHotReload: Starting Hot-Reload from IDE
-[2019.05.17-04.06.06:663][880]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
-[2019.05.17-04.06.06:696][880]LogClass: Could not find existing class OpenDoor in package /Script/Escape for HotReload, assuming new class
-[2019.05.17-04.06.06:704][880]LogHotReload: Re-instancing OpenDoor after hot-reload.
-[2019.05.17-04.06.06:876][880]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0005 seconds. Added 3 classes and 2 folders.
-[2019.05.17-04.06.06:879][880]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.05.17-04.06.07:321][880]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
-[2019.05.17-04.06.07:342][880]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2736 classes and 663 folders.
-[2019.05.17-04.06.07:346][880]Display: HotReload took  0.8s.
-[2019.05.17-04.06.32:138][437]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-04.06.32:159][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.06.32:159][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-04.06.32:159][437]PIE: New page: PIE session: MyMap (May 17, 2019, 3:06:32 PM)
-[2019.05.17-04.06.32:159][437]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-04.06.32:167][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007101s)
-[2019.05.17-04.06.32:169][437]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-04.06.32:170][437]LogPlayLevel: PIE: World Init took: (0.002915s)
-[2019.05.17-04.06.32:170][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.010240s)
-[2019.05.17-04.06.32:207][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
-[2019.05.17-04.06.32:209][437]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-04.06.32:226][437]LogInit: FAudioDevice initialized.
-[2019.05.17-04.06.32:256][437]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-04.06.32:257][437]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.17-09.36.32
-[2019.05.17-04.06.32:257][437]LogWorld: Bringing up level for play took: 0.001315
-[2019.05.17-04.06.32:270][437]LogTemp: Warning: Position Report reporting!
-[2019.05.17-04.06.32:271][437]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap 0.027
-[2019.05.17-04.06.32:271][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.06.38:530][858]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.06.38:531][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.06.38:582][858]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-04.06.38:582][858]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.06.38:620][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.06.38:624][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2019.05.17-04.06.38:643][859]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.05.17-04.06.39:907][896]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.06.40:005][899]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-04.06.40:048][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.06.40:048][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-04.06.40:048][899]PIE: New page: PIE session: MyMap (May 17, 2019, 3:06:40 PM)
-[2019.05.17-04.06.40:049][899]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-04.06.40:067][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018437s)
-[2019.05.17-04.06.40:071][899]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-04.06.40:071][899]LogPlayLevel: PIE: World Init took: (0.003481s)
-[2019.05.17-04.06.40:072][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.022764s)
-[2019.05.17-04.06.40:146][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
-[2019.05.17-04.06.40:150][899]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-04.06.40:171][899]LogInit: FAudioDevice initialized.
-[2019.05.17-04.06.40:204][899]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-04.06.40:206][899]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.17-09.36.40
-[2019.05.17-04.06.40:207][899]LogWorld: Bringing up level for play took: 0.002092
-[2019.05.17-04.06.40:222][899]LogTemp: Warning: Position Report reporting!
-[2019.05.17-04.06.40:222][899]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.021
-[2019.05.17-04.06.40:223][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.06.42:941][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
-[2019.05.17-04.06.45:116][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.05.17-04.06.48:997][129]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
-[2019.05.17-04.06.50:677][159]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
-[2019.05.17-04.06.51:562][181]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
-[2019.05.17-04.07.14:275][800]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.07.14:276][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.07.14:317][800]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-04.07.14:317][800]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.07.14:449][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.07.14:456][800]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
-[2019.05.17-04.07.14:466][801]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.05.17-04.07.27:623][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.07.53:178][497]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-04.07.53:202][497]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.07.53:202][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-04.07.53:203][497]PIE: New page: PIE session: MyMap (May 17, 2019, 3:07:53 PM)
-[2019.05.17-04.07.53:203][497]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-04.07.53:215][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012041s)
-[2019.05.17-04.07.53:216][497]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-04.07.53:216][497]LogPlayLevel: PIE: World Init took: (0.001155s)
-[2019.05.17-04.07.53:216][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.013466s)
-[2019.05.17-04.07.53:273][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
-[2019.05.17-04.07.53:275][497]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-04.07.53:292][497]LogInit: FAudioDevice initialized.
-[2019.05.17-04.07.53:325][497]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-04.07.53:328][497]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.17-09.37.53
-[2019.05.17-04.07.53:329][497]LogWorld: Bringing up level for play took: 0.003659
-[2019.05.17-04.07.53:343][497]LogTemp: Warning: Position Report reporting!
-[2019.05.17-04.07.53:344][497]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap 1.101
-[2019.05.17-04.07.53:345][497]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.07.59:474][686]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
-[2019.05.17-04.08.19:830][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.08.19:895][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.08.19:896][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.08.19:951][225]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-04.08.19:951][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.08.19:991][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.08.19:995][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
-[2019.05.17-04.08.20:002][226]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.05.17-04.22.31:766][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.23.26:452][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.05.17-04.23.26:482][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2019.05.17-04.23.26:669][650]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap78CED5364C6E9F6EF1B4D998B98924AC.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
-[2019.05.17-04.23.26:693][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
-[2019.05.17-04.23.26:873][650]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltData9B62089648636DB992C754937383DF52.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
-[2019.05.17-04.23.49:912][647]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door
-[2019.05.17-04.25.40:379][107]LogRenderer: Reallocating scene render targets to support 1144x748 Format 9 NumSamples 1 (Frame:461).
-[2019.05.17-04.25.52:976][542]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.25.55:196][652]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.26.17:124][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.26.18:548][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.26.18:678][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Door" FILE="E:/My Work/Unreal Projects/Escape/Content/StarterContent/Props/SM_Door.uasset" SILENT=true
-[2019.05.17-04.26.18:902][201]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/SM_DoorBAD240A448356283067AD9969F4D2A91.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/StarterContent/Props/SM_Door.uasset'
-[2019.05.17-04.27.07:898][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.27.08:026][413]LogSlate: Window 'SM_Door' being destroyed
-[2019.05.17-04.27.08:043][413]LogSlate: Window 'SM_Door' being destroyed
-[2019.05.17-04.28.25:760][727]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-04.28.25:779][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.28.25:779][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-04.28.25:779][727]PIE: New page: PIE session: MyMap (May 17, 2019, 3:28:25 PM)
-[2019.05.17-04.28.25:779][727]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-04.28.25:788][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008469s)
-[2019.05.17-04.28.25:791][727]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-04.28.25:791][727]LogPlayLevel: PIE: World Init took: (0.003155s)
-[2019.05.17-04.28.25:791][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.011907s)
-[2019.05.17-04.28.25:841][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
-[2019.05.17-04.28.25:844][727]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-04.28.25:863][727]LogInit: FAudioDevice initialized.
-[2019.05.17-04.28.25:899][727]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-04.28.25:902][727]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2019.05.17-09.58.25
-[2019.05.17-04.28.25:902][727]LogWorld: Bringing up level for play took: 0.002539
-[2019.05.17-04.28.25:915][727]LogTemp: Warning: Position Report reporting!
-[2019.05.17-04.28.25:916][727]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.328
-[2019.05.17-04.28.25:916][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.28.45:231][738]LogHttp: Warning: 0000006BA7553600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2019.05.17-04.28.45:231][738]LogHttp: Warning: 0000006BA7553600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x6ba7373f70 [can pipeline])
-[2019.05.17-04.28.45:231][738]LogHttp: Warning: 0000006BA7553600: libcurl info message cache 1 (Re-using existing connection! (#15) with host datarouter.ol.epicgames.com)
-[2019.05.17-04.28.45:231][738]LogHttp: Warning: 0000006BA7553600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.22.91.178) port 443 (#15))
-[2019.05.17-04.28.45:231][738]LogHttp: Warning: 0000006BA7553600: libcurl info message cache 3 (We are completely uploaded and fine)
-[2019.05.17-04.28.45:231][738]LogHttp: Warning: 0000006BA7553600: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
-[2019.05.17-04.28.45:231][738]LogHttp: Warning: 0000006BA7553600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2019.05.17-04.28.45:231][738]LogHttp: Warning: 0000006BA7553600: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2019.05.17-04.28.45:232][738]LogHttp: Warning: 0000006BA7553600: libcurl info message cache 7 (Closing connection 15)
-[2019.05.17-04.28.45:232][738]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5439022E-4CC5-66D9-AD15-40BEC2D8B5CA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2019.05.17-04.28.46:599][810]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.28.46:600][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.28.46:654][810]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-04.28.46:654][810]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.28.46:700][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.28.46:706][810]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
-[2019.05.17-04.28.46:748][811]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.05.17-04.28.49:618][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x6ba7373f70 [can pipeline])
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: libcurl info message cache 1 (Re-using existing connection! (#17) with host datarouter.ol.epicgames.com)
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.22.81.26) port 443 (#17))
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: libcurl info message cache 3 (We are completely uploaded and fine)
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2019.05.17-04.34.45:114][940]LogHttp: Warning: 0000006BA73A4CC0: libcurl info message cache 7 (Closing connection 17)
-[2019.05.17-04.34.45:452][941]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5439022E-4CC5-66D9-AD15-40BEC2D8B5CA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2019.05.17-04.36.54:629][424]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-04.36.54:651][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.36.54:651][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-04.36.54:651][424]PIE: New page: PIE session: MyMap (May 17, 2019, 3:36:54 PM)
-[2019.05.17-04.36.54:652][424]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-04.36.54:661][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009619s)
-[2019.05.17-04.36.54:662][424]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-04.36.54:663][424]LogPlayLevel: PIE: World Init took: (0.001473s)
-[2019.05.17-04.36.54:663][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.011396s)
-[2019.05.17-04.36.54:720][424]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
-[2019.05.17-04.36.54:724][424]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-04.36.54:747][424]LogInit: FAudioDevice initialized.
-[2019.05.17-04.36.54:783][424]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-04.36.54:787][424]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2019.05.17-10.06.54
-[2019.05.17-04.36.54:788][424]LogWorld: Bringing up level for play took: 0.004032
-[2019.05.17-04.36.54:801][424]LogTemp: Warning: Position Report reporting!
-[2019.05.17-04.36.54:802][424]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap 0.558
-[2019.05.17-04.36.54:802][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.37.20:690][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.37.20:691][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.37.20:751][509]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-04.37.20:752][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.37.20:805][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.37.20:810][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
-[2019.05.17-04.37.20:857][510]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.05.17-04.37.23:706][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.37.24:272][568]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-04.37.24:296][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.37.24:296][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-04.37.24:297][568]PIE: New page: PIE session: MyMap (May 17, 2019, 3:37:24 PM)
-[2019.05.17-04.37.24:297][568]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-04.37.24:307][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010047s)
-[2019.05.17-04.37.24:308][568]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-04.37.24:309][568]LogPlayLevel: PIE: World Init took: (0.001860s)
-[2019.05.17-04.37.24:309][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.012296s)
-[2019.05.17-04.37.24:367][568]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
-[2019.05.17-04.37.24:370][568]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-04.37.24:396][568]LogInit: FAudioDevice initialized.
-[2019.05.17-04.37.24:431][568]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-04.37.24:434][568]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2019.05.17-10.07.24
-[2019.05.17-04.37.24:434][568]LogWorld: Bringing up level for play took: 0.002920
-[2019.05.17-04.37.24:447][568]LogTemp: Warning: Position Report reporting!
-[2019.05.17-04.37.24:448][568]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap 0.204
-[2019.05.17-04.37.24:448][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.37.45:621][469]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.37.45:622][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.37.45:678][469]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-04.37.45:678][469]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.37.45:728][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.37.45:735][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
-[2019.05.17-04.37.45:778][470]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.05.17-04.37.57:807][536]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.40.21:139][337]Cmd: EDIT COPY
-[2019.05.17-04.40.31:738][585]Cmd: EDIT PASTE
-[2019.05.17-04.40.54:321][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.41.10:685][635]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.41.13:324][719]LogEditorViewport: Clicking Background
-[2019.05.17-04.41.17:828][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.41.19:968][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.41.36:869][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.41.42:953][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.41.44:842][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.41.48:202][587]Cmd: MODE SCALEGRID=0
-[2019.05.17-04.41.50:082][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.41.53:736][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.41.55:246][962]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.41.55:410][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
-[2019.05.17-04.41.58:153][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.41.59:432][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.42.02:211][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.42.02:288][154]Cmd: MODE SCALEGRID=1
-[2019.05.17-04.42.19:826][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.42.22:971][643]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.42.23:041][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.42.35:882][929]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.05.17-04.42.36:684][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.42.42:455][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.42.42:578][ 71]Cmd: MODE SCALEGRID=0
-[2019.05.17-04.42.43:836][101]Cmd: MODE SCALEGRID=1
-[2019.05.17-04.42.59:888][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.43.02:104][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.43.28:155][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.43.28:237][131]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-04.43.28:259][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.43.28:259][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-04.43.28:259][131]PIE: New page: PIE session: MyMap (May 17, 2019, 3:43:28 PM)
-[2019.05.17-04.43.28:260][131]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-04.43.28:273][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012832s)
-[2019.05.17-04.43.28:274][131]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-04.43.28:275][131]LogPlayLevel: PIE: World Init took: (0.002147s)
-[2019.05.17-04.43.28:275][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.015368s)
-[2019.05.17-04.43.28:325][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
-[2019.05.17-04.43.28:328][131]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-04.43.28:348][131]LogInit: FAudioDevice initialized.
-[2019.05.17-04.43.28:380][131]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-04.43.28:382][131]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2019.05.17-10.13.28
-[2019.05.17-04.43.28:382][131]LogWorld: Bringing up level for play took: 0.001967
-[2019.05.17-04.43.28:397][131]LogTemp: Warning: Position Report reporting!
-[2019.05.17-04.43.28:397][131]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap 0.153
-[2019.05.17-04.43.28:398][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.43.37:672][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.43.37:672][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.43.37:727][606]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-04.43.37:727][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.43.37:772][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.43.37:777][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
-[2019.05.17-04.43.37:824][607]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.05.17-04.43.43:729][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
-[2019.05.17-04.43.45:489][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.44.06:058][177]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Brick_Clay_New.M_Brick_Clay_New
-[2019.05.17-04.44.06:124][177]LogMaterial: Display: Missing cached shader map for material M_Brick_Clay_New, compiling. 
-[2019.05.17-04.44.06:804][177]LogMaterial: Display: Missing cached shader map for material M_Brick_Clay_New, compiling. 
-[2019.05.17-04.44.06:978][177]LogShaderCompilers: Display: Shaders left to compile 30
-[2019.05.17-04.44.06:986][177]LogMaterial: Display: Missing cached shader map for material M_Brick_Clay_New, compiling. 
-[2019.05.17-04.44.07:079][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2019.05.17-04.44.07:093][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
-[2019.05.17-04.44.07:107][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2019.05.17-04.44.07:123][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling. 
-[2019.05.17-04.44.07:138][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2019.05.17-04.44.07:153][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
-[2019.05.17-04.44.07:166][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
-[2019.05.17-04.44.07:180][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
-[2019.05.17-04.44.07:196][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
-[2019.05.17-04.44.07:210][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
-[2019.05.17-04.44.07:932][177]LogSlate: Took 0.020510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.05.17-04.44.08:746][177]LogShaderCompilers: Display: Shaders left to compile 50
-[2019.05.17-04.44.11:646][212]LogShaderCompilers: Display: Shaders left to compile 40
-[2019.05.17-04.44.14:771][251]LogSlate: Window 'M_Brick_Clay_New' being destroyed
-[2019.05.17-04.44.14:865][251]LogSlate: Window 'M_Brick_Clay_New' being destroyed
-[2019.05.17-04.44.17:403][293]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x6ba7373f70 [can pipeline])
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: libcurl info message cache 1 (Re-using existing connection! (#21) with host datarouter.ol.epicgames.com)
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.239.90.191) port 443 (#21))
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: libcurl info message cache 3 (We are completely uploaded and fine)
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2019.05.17-04.44.28:544][477]LogHttp: Warning: 0000006BE65582C0: libcurl info message cache 7 (Closing connection 21)
-[2019.05.17-04.44.28:600][478]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5439022E-4CC5-66D9-AD15-40BEC2D8B5CA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=f4d7915841461778f1d9a9afd2540019%7Cb859b813de4c42fd9e0396401185d69a%7Cbff3b387-b8eb-4546-a7ed-1c6b90a7aa32&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2019.05.17-04.44.33:350][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.44.40:495][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.44.44:507][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.44.51:568][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.44.55:007][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.45.00:475][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.45.10:130][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.45.14:466][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.45.19:328][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.45.29:032][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.45.32:932][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.05.17-04.45.42:307][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.45.49:294][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.45.54:522][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.46.04:902][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.46.09:094][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.46.14:666][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.46.15:823][471]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.46.15:854][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.05.17-04.46.15:903][471]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
-[2019.05.17-04.46.16:119][471]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap95993ED34674B28C4950A299D43A546F.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
-[2019.05.17-04.46.16:160][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
-[2019.05.17-04.46.16:436][471]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltDataAC24858840AA0E874A4EA28E63850F7C.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
-[2019.05.17-04.46.20:653][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.46.38:532][956]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x301)
-[2019.05.17-04.46.38:679][956]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.46.39:432][973]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door2)
-[2019.05.17-04.46.39:552][973]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.17-04.46.40:264][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
-[2019.05.17-04.46.49:659][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.05.17-04.46.49:741][208]LogTemp: Repeating last play command: Selected Viewport
-[2019.05.17-04.46.49:766][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.46.49:766][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.05.17-04.46.49:766][208]PIE: New page: PIE session: MyMap (May 17, 2019, 3:46:49 PM)
-[2019.05.17-04.46.49:766][208]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
-[2019.05.17-04.46.49:779][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012251s)
-[2019.05.17-04.46.49:780][208]LogAIModule: Creating AISystem for world MyMap
-[2019.05.17-04.46.49:780][208]LogPlayLevel: PIE: World Init took: (0.001302s)
-[2019.05.17-04.46.49:780][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.013872s)
-[2019.05.17-04.46.49:832][208]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
-[2019.05.17-04.46.49:836][208]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.17-04.46.49:852][208]LogInit: FAudioDevice initialized.
-[2019.05.17-04.46.49:885][208]LogLoad: Game class is 'GameModeBase'
-[2019.05.17-04.46.49:888][208]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 60) at 2019.05.17-10.16.49
-[2019.05.17-04.46.49:888][208]LogWorld: Bringing up level for play took: 0.003066
-[2019.05.17-04.46.49:901][208]LogTemp: Warning: Position Report reporting!
-[2019.05.17-04.46.49:902][208]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.342
-[2019.05.17-04.46.49:902][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.47.03:157][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.47.03:158][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.47.03:204][940]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.05.17-04.47.03:204][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
-[2019.05.17-04.47.03:251][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.17-04.47.03:256][940]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
-[2019.05.17-04.47.03:294][941]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.05.17-04.47.17:224][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
-[2019.05.17-04.47.19:920][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.17-08.12.11:296][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.17-08.12.11:296][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.17-08.12.11:296][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.17-08.12.11:298][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.17-08.12.11:298][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.17-08.12.11:299][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.17-08.12.11:299][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.17-08.12.11:299][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.17-08.12.11:311][  0]LogHAL: Display: Platform has ~ 16 GB [17092423680 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.05.17-08.12.11:311][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.17-08.12.11:311][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.05.17-08.12.11:311][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Scalability.ini]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.05.17-08.12.11:312][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/My Work/Unreal Projects/Escape/Saved/Config/Windows/Engine.ini]
+[2019.05.17-08.12.11:313][  0]LogInit: Computer: DELL
+[2019.05.17-08.12.11:313][  0]LogInit: User: Owner
+[2019.05.17-08.12.11:313][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.05.17-08.12.11:313][  0]LogInit: High frequency timer resolution =2.338340 MHz
+[2019.05.17-08.12.11:313][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.17-08.12.11:313][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.17-08.12.11:313][  0]LogMemory: Process Physical Memory: 93.43 MB used, 93.43 MB peak
+[2019.05.17-08.12.11:313][  0]LogMemory: Process Virtual Memory: 83.39 MB used, 83.39 MB peak
+[2019.05.17-08.12.11:313][  0]LogMemory: Physical Memory: 6679.55 MB used,  9621.06 MB free, 16300.61 MB total
+[2019.05.17-08.12.11:313][  0]LogMemory: Virtual Memory: 484.35 MB used,  134217240.00 MB free, 134217728.00 MB total
+[2019.05.17-08.12.11:331][  0]LogInit: Using OS detected language (en-US).
+[2019.05.17-08.12.11:331][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.17-08.12.11:331][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.17-08.12.11:586][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.17-08.12.11:626][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.17-08.12.11:626][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.17-08.12.12:039][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.17-08.12.12:039][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.17-08.12.12:050][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2019.05.17-08.12.12:051][  0]LogD3D11RHI:       128/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.05.17-08.12.12:055][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.17-08.12.12:055][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.17-08.12.12:055][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.17-08.12.12:066][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.17-08.12.12:066][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.17-08.12.12:066][  0]LogWindows: EnumDisplayDevices:
+[2019.05.17-08.12.12:067][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2019.05.17-08.12.12:073][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2019.05.17-08.12.12:075][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2019.05.17-08.12.12:076][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.05.17-08.12.12:076][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2019.05.17-08.12.12:076][  0]LogD3D11RHI:   Driver Version: 10.18.14.4332 (internal:10.18.14.4332, unified:10.18.14.4332)
+[2019.05.17-08.12.12:076][  0]LogD3D11RHI:      Driver Date: 11-20-2015
+[2019.05.17-08.12.12:076][  0]LogRHI: Texture pool is 716 MB (70% of 1024 MB)
+[2019.05.17-08.12.12:087][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.17-08.12.12:091][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.17-08.12.12:091][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.17-08.12.12:091][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.17-08.12.12:097][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2019.05.17-08.12.12:771][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.05.17-08.12.12:809][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.05.17-08.12.12:852][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.05.17-08.12.12:901][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.05.17-08.12.12:940][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.05.17-08.12.12:978][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.05.17-08.12.13:022][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.05.17-08.12.13:063][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.05.17-08.12.13:084][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.05.17-08.12.13:353][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.05.17-08.12.13:356][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.05.17-08.12.13:484][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.05.17-08.12.13:484][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.05.17-08.12.13:557][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.05.17-08.12.13:557][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.05.17-08.12.13:591][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.05.17-08.12.13:626][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.05.17-08.12.13:653][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.05.17-08.12.13:681][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.05.17-08.12.13:776][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.05.17-08.12.13:776][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.05.17-08.12.13:776][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.17-08.12.13:795][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.05.17-08.12.13:907][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (E:/My Work/Unreal Projects/Escape/Intermediate/Shaders/WorkingDirectory/4340/).
+[2019.05.17-08.12.13:908][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/CBDF2E364A643A248DC7F29BFB74805E/'.
+[2019.05.17-08.12.13:912][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.17-08.12.13:912][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.17-08.12.13:912][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.17-08.12.14:985][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.17-08.12.15:106][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.17-08.12.15:106][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.05.17-08.12.15:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/My Work/Unreal Projects/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.17-08.12.15:106][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.17-08.12.15:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/My Work/Unreal Projects/Escape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.17-08.12.15:107][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.17-08.12.15:131][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.17-08.12.15:131][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.17-08.12.15:131][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.17-08.12.15:143][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.17-08.12.15:143][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.17-08.12.15:143][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.17-08.12.15:199][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.17-08.12.15:201][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.17-08.12.15:202][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.17-08.12.15:380][  0]LogAssetRegistry: FAssetRegistry took 0.0514 seconds to start up
+[2019.05.17-08.12.16:171][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.17-08.12.16:290][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.17-08.12.16:290][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.05.17-08.12.16:290][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.17-08.12.16:290][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.05.17-08.12.16:290][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.05.17-08.12.16:481][  0]LogNetVersion: Escape 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1356091847)
+[2019.05.17-08.12.17:258][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052514 seconds
+[2019.05.17-08.12.17:269][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.05.17-08.12.17:269][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.05.17-08.12.17:269][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.17-08.12.18:866][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.17-08.12.18:880][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.17-08.12.19:012][  0]SourceControl: Source control is disabled
+[2019.05.17-08.12.19:012][  0]SourceControl: Source control is disabled
+[2019.05.17-08.12.19:015][  0]SourceControl: Source control is disabled
+[2019.05.17-08.12.19:016][  0]SourceControl: Source control is disabled
+[2019.05.17-08.12.19:098][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.17-08.12.19:173][  0]LogOcInput: OculusInput pre-init called
+[2019.05.17-08.12.20:449][  0]LogEngine: Initializing Engine...
+[2019.05.17-08.12.20:450][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.17-08.12.20:451][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.05.17-08.12.20:922][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.17-08.12.20:967][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.17-08.12.20:978][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.17-08.12.21:115][  0]LogInit: FAudioDevice initialized.
+[2019.05.17-08.12.21:115][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.17-08.12.21:444][  0]LogDerivedDataCache: Saved boot cache 0.33s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.17-08.12.21:453][  0]LogInit: Texture streaming: Enabled
+[2019.05.17-08.12.21:477][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.17-08.12.21:506][  0]LogInit: Transaction tracking system initialized
+[2019.05.17-08.12.21:548][  0]BlueprintLog: New page: Editor Load
+[2019.05.17-08.12.21:715][  0]LocalizationService: Localization service is disabled
+[2019.05.17-08.12.23:370][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/' took 0.01s
+[2019.05.17-08.12.23:370][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.17-08.12.23:370][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.17-08.12.23:696][  0]SourceControl: Source control is disabled
+[2019.05.17-08.12.23:696][  0]Cmd: MAP LOAD FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.17-08.12.23:697][  0]LightingResults: New page: Lighting Build
+[2019.05.17-08.12.23:700][  0]MapCheck: New page: Map Check
+[2019.05.17-08.12.23:700][  0]LightingResults: New page: Lighting Build
+[2019.05.17-08.12.23:741][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.05.17-08.12.23:919][  0]LogStaticMesh: Building static mesh SM_Door...
+[2019.05.17-08.12.24:556][  0]LogStaticMesh: Built static mesh [0.64s] /Game/StarterContent/Props/SM_Door.SM_Door
+[2019.05.17-08.12.24:812][  0]LogAIModule: Creating AISystem for world MyMap
+[2019.05.17-08.12.24:822][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.17-08.12.25:076][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2019.05.17-08.12.25:076][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.17-08.12.25:077][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.195ms to complete.
+[2019.05.17-08.12.25:077][  0]LogFileHelpers: Loading map 'MyMap' took 1.381
+[2019.05.17-08.12.25:240][  0]LogCollectionManager: Loaded 0 collections in 0.002067 seconds
+[2019.05.17-08.12.25:271][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Saved/Collections/' took 0.01s
+[2019.05.17-08.12.25:271][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/Developers/Owner/Collections/' took 0.00s
+[2019.05.17-08.12.25:271][  0]LogFileCache: Scanning file cache for directory 'E:/My Work/Unreal Projects/Escape/Content/Collections/' took 0.01s
+[2019.05.17-08.12.25:271][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.05.17-08.12.25:296][  0]LogContentBrowser: Native class hierarchy populated in 0.0242 seconds. Added 2736 classes and 663 folders.
+[2019.05.17-08.12.25:314][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2019.05.17-08.12.25:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:591][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:593][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:594][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:596][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:596][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:597][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:598][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:599][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:602][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:603][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.17-08.12.25:878][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.05.17-08.12.25:922][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.12.25:937][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.12.25:954][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.12.25:970][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.12.26:019][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.05.17-08.12.26:019][  0]LogLoad: (Engine Initialization) Total time: 16.16 seconds
+[2019.05.17-08.12.26:019][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.17-08.12.26:119][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.05.17-08.12.26:121][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.17-08.12.26:142][  0]LogSlate: Took 0.017353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.17-08.12.26:143][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.17-08.12.26:179][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.17-08.12.27:235][  2]LogRenderer: Reallocating scene render targets to support 1008x548 Format 9 NumSamples 1 (Frame:1).
+[2019.05.17-08.12.28:039][  2]LogAssetRegistry: Asset discovery search completed in 12.6810 seconds
+[2019.05.17-08.12.28:050][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.05.17-08.12.28:050][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000181 seconds (updated 0 objects)
+[2019.05.17-08.19.52:674][399]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.05.17-08.20.52:358][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2019.05.17-08.21.04:139][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.21.28:164][907]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.05.17-08.21.28:295][907]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.21.29:384][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.17-08.21.33:445][114]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.05.17-08.21.33:511][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.21.33:626][118]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.05.17-08.21.33:731][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.21.34:737][228]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.05.17-08.21.34:847][228]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.21.35:702][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.17-08.21.36:297][327]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.05.17-08.21.36:364][327]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.21.46:666][781]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.21.56:931][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2019.05.17-08.22.01:201][170]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.22.06:744][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2019.05.17-08.22.10:267][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.22.14:140][540]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.22.16:841][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.22.25:208][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.22.25:444][511]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.05.17-08.22.25:448][511]Candidate modules for hot reload:
+[2019.05.17-08.22.25:448][511]  Escape
+[2019.05.17-08.22.25:448][511]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Escape,3454 Win64 Development -TargetType=Editor -Project="E:/My Work/Unreal Projects/Escape/Escape.uproject" "E:/My Work/Unreal Projects/Escape/Escape.uproject"  -IgnoreJunk]
+[2019.05.17-08.22.25:451][511]Warning: Starting HotReload took  0.0s.
+[2019.05.17-08.22.29:999][894]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.05.17-08.22.36:342][254]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.22.45:193][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.17-08.22.47:249][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.22.49:980][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.22.50:041][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x306)
+[2019.05.17-08.22.51:427][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.22.53:591][335]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.22.54:886][461]CompilerResultsLog: New page: Compilation - May 17, 2019, 7:22:54 PM
+[2019.05.17-08.22.54:886][461]CompilerResultsLog: Creating makefile for EscapeEditor (ini files are newer than makefile)
+[2019.05.17-08.22.54:886][461]CompilerResultsLog: Parsing headers for EscapeEditor
+[2019.05.17-08.22.54:886][461]CompilerResultsLog:   Running UnrealHeaderTool "E:\My Work\Unreal Projects\Escape\Escape.uproject" "E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.17-08.22.54:886][461]CompilerResultsLog: Reflection code generated for EscapeEditor in 16.8060431 seconds
+[2019.05.17-08.22.54:886][461]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 8.1 SDK (C:\Program Files (x86)\Windows Kits\8.1).
+[2019.05.17-08.22.54:887][461]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.17-08.22.54:887][461]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2019.05.17-08.22.54:887][461]CompilerResultsLog:   [2/4] UE4Editor-Escape-3454.lib
+[2019.05.17-08.22.54:887][461]CompilerResultsLog:      Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-3454.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-3454.exp
+[2019.05.17-08.22.54:887][461]CompilerResultsLog:   [3/4] UE4Editor-Escape-3454.dll
+[2019.05.17-08.22.54:887][461]CompilerResultsLog:      Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-3454.suppressed.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-3454.suppressed.exp
+[2019.05.17-08.22.54:887][461]CompilerResultsLog:   [4/4] EscapeEditor.target
+[2019.05.17-08.22.54:887][461]CompilerResultsLog: Total time in Parallel executor: 5.20 seconds
+[2019.05.17-08.22.54:887][461]CompilerResultsLog: Total execution time: 29.29 seconds
+[2019.05.17-08.22.54:887][461]LogMainFrame: MainFrame: Module compiling took 29.443 seconds
+[2019.05.17-08.22.54:941][461]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.05.17-08.22.56:179][461]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2019.05.17-08.22.56:184][461]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.17-08.22.56:349][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.05.17-08.22.56:374][461]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2736 classes and 663 folders.
+[2019.05.17-08.22.56:374][461]Display: HotReload took 30.9s.
+[2019.05.17-08.23.01:700][778]LogEditorViewport: Clicking Background
+[2019.05.17-08.23.04:446][100]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.23.12:150][604]LogEditorViewport: Clicking Background
+[2019.05.17-08.23.14:679][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.23.15:895][937]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.23.16:007][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2019.05.17-08.23.17:758][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.23.20:533][ 69]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.23.24:424][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2019.05.17-08.23.26:062][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.23.26:505][216]LogSlate: Took 0.020732 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.17-08.23.41:338][588]LogSlate: Window 'Color Picker' being destroyed
+[2019.05.17-08.23.44:121][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.23.53:209][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x309)
+[2019.05.17-08.23.55:650][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2019.05.17-08.23.57:217][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.24.01:108][111]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.24.18:562][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2019.05.17-08.24.21:953][646]Cmd: SELECT NONE
+[2019.05.17-08.24.23:573][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.24.24:708][818]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.17-08.24.24:711][818]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.24.24:727][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.17-08.24.24:769][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.05.17-08.24.24:984][818]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMapD7B9EAF7418BC83B112C51A99F65F68A.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
+[2019.05.17-08.24.25:041][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
+[2019.05.17-08.24.25:461][818]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltData468E3D0846AEB4A5AFA942ADEE8885D0.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
+[2019.05.17-08.24.27:426][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.24.27:524][877]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.17-08.24.27:545][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.24.27:546][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.17-08.24.27:546][877]PIE: New page: PIE session: MyMap (May 17, 2019, 7:24:27 PM)
+[2019.05.17-08.24.27:559][877]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.17-08.24.27:566][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006944s)
+[2019.05.17-08.24.27:567][877]LogAIModule: Creating AISystem for world MyMap
+[2019.05.17-08.24.27:569][877]LogPlayLevel: PIE: World Init took: (0.002710s)
+[2019.05.17-08.24.27:569][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.010030s)
+[2019.05.17-08.24.27:611][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.05.17-08.24.27:614][877]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.17-08.24.27:631][877]LogInit: FAudioDevice initialized.
+[2019.05.17-08.24.27:674][877]LogLoad: Game class is 'GameModeBase'
+[2019.05.17-08.24.27:677][877]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.17-13.54.27
+[2019.05.17-08.24.27:770][877]LogWorld: Bringing up level for play took: 0.094364
+[2019.05.17-08.24.27:829][877]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.05.17-08.24.27:830][877]LogTemp: Warning: Position Report reporting!
+[2019.05.17-08.24.27:831][877]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.394
+[2019.05.17-08.24.27:831][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.24.44:239][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.24.44:240][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.24.44:291][880]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.17-08.24.44:291][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.24.44:337][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.24.44:343][880]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.05.17-08.24.44:364][881]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.05.17-08.24.46:978][952]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.25.02:622][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2019.05.17-08.25.05:426][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.25.05:496][430]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.17-08.25.05:515][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.25.05:515][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.17-08.25.05:515][430]PIE: New page: PIE session: MyMap (May 17, 2019, 7:25:05 PM)
+[2019.05.17-08.25.05:516][430]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.17-08.25.05:526][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010030s)
+[2019.05.17-08.25.05:527][430]LogAIModule: Creating AISystem for world MyMap
+[2019.05.17-08.25.05:527][430]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2019.05.17-08.25.05:527][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.011677s)
+[2019.05.17-08.25.05:577][430]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.05.17-08.25.05:581][430]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.17-08.25.05:601][430]LogInit: FAudioDevice initialized.
+[2019.05.17-08.25.05:634][430]LogLoad: Game class is 'GameModeBase'
+[2019.05.17-08.25.05:636][430]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.17-13.55.05
+[2019.05.17-08.25.05:637][430]LogWorld: Bringing up level for play took: 0.001922
+[2019.05.17-08.25.05:650][430]LogTemp: Warning: Position Report reporting!
+[2019.05.17-08.25.05:651][430]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.574
+[2019.05.17-08.25.05:651][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.25.20:244][370]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.25.20:245][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.25.20:296][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.17-08.25.20:296][370]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.25.20:345][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.25.20:350][370]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.05.17-08.25.20:372][371]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.05.17-08.25.22:319][420]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.25.27:238][537]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2019.05.17-08.25.38:849][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2019.05.17-08.25.43:843][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.25.43:913][976]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.17-08.25.43:932][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.25.43:933][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.17-08.25.43:933][976]PIE: New page: PIE session: MyMap (May 17, 2019, 7:25:43 PM)
+[2019.05.17-08.25.43:933][976]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2019.05.17-08.25.43:942][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009230s)
+[2019.05.17-08.25.43:943][976]LogAIModule: Creating AISystem for world MyMap
+[2019.05.17-08.25.43:944][976]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2019.05.17-08.25.43:944][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.010912s)
+[2019.05.17-08.25.43:989][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2019.05.17-08.25.43:992][976]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.17-08.25.44:009][976]LogInit: FAudioDevice initialized.
+[2019.05.17-08.25.44:036][976]LogLoad: Game class is 'GameModeBase'
+[2019.05.17-08.25.44:038][976]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2019.05.17-13.55.44
+[2019.05.17-08.25.44:039][976]LogWorld: Bringing up level for play took: 0.001861
+[2019.05.17-08.25.44:053][976]LogTemp: Warning: Position Report reporting!
+[2019.05.17-08.25.44:054][976]PIE: Play in editor start time for /Game/UEDPIE_0_MyMap -0.171
+[2019.05.17-08.25.44:054][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.25.53:607][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.25.53:607][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.25.53:659][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.17-08.25.53:659][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyMap.MyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MyMap.MyMap:PersistentLevel.MyMap' with GeneratedClass '/Game/MyMap.MyMap_C' with ClassGeneratedBy '/Game/MyMap.MyMap:PersistentLevel.MyMap'
+[2019.05.17-08.25.53:708][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.17-08.25.53:713][577]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.05.17-08.25.53:736][578]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.05.17-08.25.55:927][625]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.25.57:369][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.17-08.25.57:421][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.17-08.25.57:466][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.05.17-08.25.57:717][659]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap4FFC47C9491FD0C9BA207490932DD46B.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap.umap'
+[2019.05.17-08.25.57:756][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap_BuiltData" FILE="E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset" SILENT=true
+[2019.05.17-08.25.58:029][659]LogSavePackage: Moving 'E:/My Work/Unreal Projects/Escape/Saved/MyMap_BuiltDataE64D235540BD118BC92C3BA29B57A02C.tmp' to 'E:/My Work/Unreal Projects/Escape/Content/MyMap_BuiltData.uasset'
+[2019.05.17-08.26.27:367][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.27.12:218][432]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2019.05.17-08.27.13:442][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2019.05.17-08.27.16:064][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.27.53:007][836]Cmd: SELECT NONE
+[2019.05.17-08.27.54:528][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.17-08.30.27:563][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
