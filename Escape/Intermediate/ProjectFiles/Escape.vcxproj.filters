@@ -54,4 +54,14 @@
       <Filter>Source\Escape</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Escape\Grabber.h">
+      <Filter>Source\Escape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Escape\Grabber.cpp">
+      <Filter>Source\Escape</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
