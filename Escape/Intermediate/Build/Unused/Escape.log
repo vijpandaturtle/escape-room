@@ -1,13 +1,15 @@
-﻿  Parsing headers for EscapeEditor
+﻿  Creating makefile for EscapeEditor (ini files are newer than makefile)
+  Parsing headers for EscapeEditor
     Running UnrealHeaderTool "E:\My Work\Unreal Projects\Escape\Escape.uproject" "E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for EscapeEditor in 7.4870403 seconds
+  Reflection code generated for EscapeEditor in 11.3747496 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 8.1 SDK (C:\Program Files (x86)\Windows Kits\8.1).
-  Building 4 actions with 4 processes...
-    [1/4] Grabber.cpp
-    [2/4] UE4Editor-Escape-0012.lib
-       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0012.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0012.exp
-    [3/4] UE4Editor-Escape-0012.dll
-       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0012.suppressed.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0012.suppressed.exp
-    [4/4] EscapeEditor.target
-  Total time in Parallel executor: 2.62 seconds
-  Total execution time: 11.56 seconds
+  Building 5 actions with 4 processes...
+    [1/5] Grabber.gen.cpp
+    [2/5] Grabber.cpp
+    [3/5] UE4Editor-Escape-0015.lib
+       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0015.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0015.exp
+    [4/5] UE4Editor-Escape-0015.dll
+       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0015.suppressed.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0015.suppressed.exp
+    [5/5] EscapeEditor.target
+  Total time in Parallel executor: 3.75 seconds
+  Total execution time: 19.63 seconds

@@ -3,4 +3,6 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 E:\My Work\Unreal Projects\Escape\Source\Escape/Grabber.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PhysicsHandleComponent.generated.h
 e:\my work\unreal projects\escape\intermediate\build\win64\ue4editor\inc\escape\Grabber.generated.h
