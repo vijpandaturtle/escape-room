@@ -1,15 +1,9 @@
-﻿  Parsing headers for EscapeEditor
+﻿  Creating makefile for EscapeEditor (ini files are newer than makefile)
+  Parsing headers for EscapeEditor
     Running UnrealHeaderTool "E:\My Work\Unreal Projects\Escape\Escape.uproject" "E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for EscapeEditor in 8.8864318 seconds
+  Reflection code generated for EscapeEditor in 9.7256789 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 8.1 SDK (C:\Program Files (x86)\Windows Kits\8.1).
-  Building 4 actions with 4 processes...
-    [1/4] Grabber.cpp
-E:\My Work\Unreal Projects\Escape\Source\Escape\Grabber.cpp(70): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(86): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
-    [2/4] UE4Editor-Escape-0026.lib
-       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0026.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0026.exp
-    [3/4] UE4Editor-Escape-0026.dll
-       Creating library E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0026.suppressed.lib and object E:\My Work\Unreal Projects\Escape\Intermediate\Build\Win64\UE4Editor\Development\Escape\UE4Editor-Escape-0026.suppressed.exp
-    [4/4] EscapeEditor.target
-  Total time in Parallel executor: 32.04 seconds
-  Total execution time: 42.34 seconds
+  Building 1 action with 4 processes...
+    [1/1] EscapeEditor.target
+  Total time in Parallel executor: 0.28 seconds
+  Total execution time: 13.69 seconds
