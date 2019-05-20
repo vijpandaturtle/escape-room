@@ -4,6 +4,8 @@
 #include "Grabber.h"
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
+#include "GameFramework/Actor.h"
+
 
 #define OUT 
 
@@ -47,7 +49,7 @@ void UGrabber::SetupInputComponent()
 		UE_LOG(LogTemp, Warning, TEXT("Input component is found"));
 		///Bind the input action 
 		InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
-		InputComponent->BindAction("Released", IE_Released, this, &UGrabber::Release);
+		InputComponent->BindAction("Grab", IE_Released, this, &UGrabber::Release);
 	}
 	else
 	{
@@ -69,8 +71,9 @@ void UGrabber::Grab()
 		//TODO attach physics handle 
 		PhysicsHandle->GrabComponent(
 			ComponentToGrab,
-			NAME_None, 
-			ComponentToGrab->GetOwner()->GetActorLocation(),true);
+			NAME_None,
+			ComponentToGrab->GetOwner()->GetActorLocation(),
+			true);
 	}
 }
 
